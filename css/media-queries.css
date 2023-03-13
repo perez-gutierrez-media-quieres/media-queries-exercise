@@ -58,32 +58,38 @@
 
 }
 @media screen and (min-width:934px) {
-    *{
+    * {
         box-sizing: border-box;
     }
+
     body {
         display: flex;
         flex-wrap: wrap;
     }
-    .hidden-on-desktop{
+
+    .hidden-on-desktop {
         display: none;
     }
+
     h1 {
         flex-direction: row;
         margin-right: auto;
         width: 50%;
 
     }
+
     nav {
         width: 50%;
         margin: auto;
     }
-    .nav-links{
+
+    .nav-links {
         list-style: none;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    .header-img{
+
+    .header-img {
         margin: auto;
     }
